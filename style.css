@@ -3,8 +3,10 @@ body {
     background-color: black;
 }
 
-.header {
-    width: 950px;
+ header,
+ .dark,
+ footer {
+    width: 1200px;
     height: auto;
     background-color: #1f2937;
     color: #f9faf8;
@@ -16,10 +18,10 @@ body {
 }
 
 .header-logo {
-    font-size: 24px;
-    margin-left: 80px;
+    font-size: 26px;
+    margin-left: 110px;
     display: flex;
-    margin-top: 14px;
+    margin-top: 30px;
     font-weight: bold;
 }
 
@@ -35,34 +37,32 @@ body {
 }
 
 .headerlist {
-    margin-right: 80px;
-    margin-top: 23px;
+    margin-right: 110px;
+    margin-top: 38px;
     margin-left: 10px;
 }
 
 .top-dark-left {
-    width: 475px;
-    height: auto;
-    background-color: #1f2937;
-    color: #f9faf8;
-    display: flex;
     flex-direction: column;
-    margin-left: 229px;
+}
+
+.top-dark-right {
+    justify-content: right;
 }
 
 .boldextra {
-    width: 355px;
+    width: 450px;
     font-size: 38px;
     font-weight: bolder;
     display: flex;
-    margin-left: 80px;
-    margin-top: 40px;
+    margin-left: 110px;
+    margin-top: 70px;
 }
 
 .text {
-    width: 260px;
-    margin-left: 80px;
-    margin-top: 10px;
+    width: 500px;
+    margin-left: 110px;
+    margin-top: 20px;
 }
 
 .signup {
@@ -70,39 +70,27 @@ body {
     color: #e5e7eb;
     text-align: center;
     border-radius: 7px;
-    padding: 6px; 
+    padding: 6px 10px 6px; 
+    
 }
 
 .button {
     margin-top: 10px;
-    margin-left: 80PX;
+    margin-left: 110PX;
     margin-bottom: 40px;
 }
 
-.top-dark-right {
-    width: 475px;
-    height: auto;
-    background-color: #1f2937;
-    color: #f9faf8;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 229px;
-}
-
 .imgplace {
-    width: 350px;
-    height: 150px;
+    width: 400px;
+    height: 180px;
     background-color: #8e8e8e;
     color: black;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    margin-right: 80px;
-}
-
-.dark {  
-    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 110px;
+    margin-bottom: 120px;
 }
 
 .random, 
@@ -117,30 +105,30 @@ body {
 }
 
 .random.info {
-    width: 920px;
+    width: 1120px;
     font-size: 36px;
     font-weight: bold;
     justify-content: center;
-    padding: 15px;
+    padding: 40px;
 }
 
 .box {
-    width: 950px;
+    width: 1200px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 35px;
 }
 
 .box1,
 .box2,
 .box3,
 .box4 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: solid;
-    border-radius: 7px;
+    border-radius: 15px;
     border-color: #3882F6;
-    border-width: 2px;
+    border-width: 3px;
 }
 
 .b1,
@@ -149,17 +137,17 @@ body {
 .b4 {
     display: flex;
     flex-direction: column;
-    
 }
 
 .boxtext {
-    width: 100px;
+    width: 150px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .grey-box {
-    width: 730px;
+    width: 880px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -167,26 +155,27 @@ body {
     font-size: 25px;
     font-style: italic;
     display: flex;
-    padding: 110px;
+    padding: 110px 160px 110px;
 }
 
 .author {
     font-weight: bold;
     text-align: end;
+    margin-top: 15px;
 }
 
 .white-box{
+    width: 1200px;
     display: flex;
-    width: 950px;
     align-items: center;
     justify-content: center;
 }
 
 .blue-box {
-    width: 450px;
+    width: 500px;
     background-color: #3882F6;
     padding: 30px;
-    margin: 30px;
+    margin: 60px;
     color: #f9faf8;
     border-radius: 4px;
     display: flex;
@@ -206,19 +195,12 @@ body {
     border-style: solid;
     border-radius: 7px;
     border-color: #E5E7EB;
-    padding: 6px; 
+    padding: 6px 9px 6px; 
     margin-right: 20px;
 }
 
-.footer {
-    width: 950px;
-    height: auto;
-    background-color: #1f2937;
-    color: #f9faf8;
-    margin-left: auto;
-    margin-right: auto;
+ footer {
     justify-content: center;
-    display: flex;
     padding-top: 15px;
     padding-bottom: 10px;
     
